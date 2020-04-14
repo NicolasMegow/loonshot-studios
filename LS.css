@@ -38,10 +38,11 @@ body {
 .cover-container {
   max-width: 60em;
 }
-.row,
-.svg-inline--fa,
+.row {
+  margin-bottom: 1rem;
+}
 .masthead {
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 }
 
 /*

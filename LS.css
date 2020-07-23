@@ -3,11 +3,19 @@
  */
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto');
 
+:root {
+  --main-color:  #F1FAEE;
+  --primary-color: #1D3557;
+  --highlight-color: #E63946;
+  --secondary-bg-color: #A8DADC;
+  --secondary-color: #457B9D;
+}
+
 /* Links */
 a,
 a:focus,
 a:hover {
-  color: #E63946;
+  color: var(--highlight-color);
 }
 
 h1 {
@@ -33,13 +41,13 @@ p {
 html,
 body {
   height: 100%;
-  background-color: #ffffff;
+  background-color: var(--main-color);
 }
 
 body {
   display: -ms-flexbox;
   display: flex;
-  color: #1D3557;
+  color: var(--primary-color);
   font-family: 'Montserrat', sans-serif;
 }
 

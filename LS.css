@@ -56,13 +56,10 @@ body {
   margin-bottom: 3rem;
 }
 
-@media (min-width: 48em) {
-  .masthead-brand {
-    float: left;
-  }
-  .nav-masthead {
-    float: right;
-  }
+@media (max-width: 700px) {
+  h1 {
+    font-size:3rem;
+}
 }
 
 

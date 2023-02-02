@@ -4,11 +4,11 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto');
 
 :root {
-  --main-color:  #F1FAEE;
-  --primary-color: #1D3557;
-  --highlight-color: #E63946;
+  --main-color:  #fff;
+  --primary-color: #120136;
+  --highlight-color: #035aa6;
   --secondary-bg-color: #A8DADC;
-  --secondary-color: #457B9D;
+  --secondary-color: #E63946;
 }
 
 /* Links */
@@ -22,6 +22,7 @@ h1 {
   font-size:4.2rem;
   font-weight: 900;
   text-transform: uppercase;
+  color: var(--highlight-color)
 }
 
 h2 {
